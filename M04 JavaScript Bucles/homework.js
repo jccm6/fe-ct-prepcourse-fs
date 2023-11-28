@@ -5,6 +5,11 @@ function obtenerMayor(x, y) {
    // Retornar el número más grande.
    // Si son iguales, retornar cualquiera de los dos.
    // Tu código:
+   if (x>y) {
+      return('El mayor es:' , x);
+   } else {
+      return('El mayor es:' , y);
+   }
 }
 
 function mayoriaDeEdad(edad) {
@@ -12,6 +17,7 @@ function mayoriaDeEdad(edad) {
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
    // Tu código:
+   return edad>= 18 ? "Allowed" : "Not allowed";
 }
 
 function conection(status) {
